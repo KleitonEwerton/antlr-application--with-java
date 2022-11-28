@@ -35,13 +35,13 @@ public class Expressao {
                 listFoundersInDirectory(repositoryName);
 
         } else {
-            System.out.println("Usage: java -jar <url> [-tree (optional)]");
+            System.out.println("Downloading");
             System.exit(0);
         }
     }
 
     public static void downloadGitHub(String url) {
-
+	  System.out.println("Downloading...");
         String[] command = { "git", "clone", url };
         String[] urlSplit = url.split("/");
 
