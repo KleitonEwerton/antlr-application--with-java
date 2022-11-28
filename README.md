@@ -25,7 +25,7 @@ $ https://github.com/KleitonEwerton/antlr-application-with-java.git
 $ cd antlr-application-with-java
 
 # Instale as dependências
-$ mvn install
+$ mvn clean install
 
 #Rodando
 $ java -jar .\target\Expressao-1.0-SNAPSHOT-jar-with-dependencies.jar <url> [-tree (option, for view tree)]
